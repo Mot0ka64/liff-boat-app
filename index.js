@@ -5,7 +5,7 @@ $(function () {
         var names = $('input[name="name"]').val();
 
         var msg = `希望日：${date}\n氏名：${names}`;
-        sendText(msg);
+        sendMessages(msg);
 
         return false;
     });
